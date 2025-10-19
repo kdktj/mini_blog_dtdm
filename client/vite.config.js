@@ -12,6 +12,15 @@ export default defineConfig({
       },
     },
   },
+  preview: {
+    allowedHosts: [
+      'frontend-production-e939.up.railway.app',
+      'localhost',
+      '127.0.0.1',
+      '0.0.0.0',
+    ],
+    port: 5173,
+  },
   build: {
     outDir: 'dist',
     sourcemap: false,
