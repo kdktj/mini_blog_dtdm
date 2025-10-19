@@ -1,9 +1,0 @@
-{
-  "build": {
-    "builder": "nixpacks"
-  },
-  "deploy": {
-    "startCommand": "npm run migrate && npm run seed && npm start"
-  },
-  "rootDirectory": "server"
-}
